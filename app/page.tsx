@@ -461,9 +461,13 @@ export default function Home() {
         updateNodeClaimableStatus()
       }, 100)
 
-      // 6. 后台触发同步和刷新总销售额（不阻塞UI）
-      syncUserData(account).catch(err => console.warn('后台同步失败:', err))
-      loadTotalSales().catch(err => console.warn('刷新总销售额失败:', err))
+      // 6. 购买成功后并行刷新所有数据
+      Promise.all([
+        syncUserData(account),
+        loadTotalSales(),
+        loadUserData(),
+        loadTeamPerformance()
+      ]).catch(err => console.warn('购买后刷新数据失败:', err))
     } catch (error: any) {
       console.error("Purchase failed:", error)
 
@@ -653,10 +657,8 @@ export default function Home() {
 
         // console.log('用户信息加载完成')
 
-        // 4. 团队业绩从API读取（需要递归计算，链上查询太慢）
-        await loadTeamPerformance()
-
-        // 5. 从后端API获取用户数据（等级、有效直推、解锁层深）
+        // 4. 从后端API获取用户数据（等级、有效直推、解锁层深）
+        // 注：团队业绩 loadTeamPerformance() 已在 useEffect 中并行调用
         try {
           const userApiInfo = await getUserInfoAPI(account)
           if (userApiInfo) {
@@ -879,12 +881,16 @@ export default function Home() {
     loadTotalSales()
   }, [])
 
-  // 当账户变化时重新加载数据
+  // 页面挂载 + 钱包已连接时加载数据（并行）
   useEffect(() => {
-    if (account) {
+    if (mounted && account) {
       setIsOldUser(false) // 重置用户类型标记，等待 loadUserData 更新
-      loadUserData()
-    } else {
+      // 并行加载用户数据和团队业绩
+      Promise.all([
+        loadUserData(),
+        loadTeamPerformance()
+      ]).catch(err => console.error('加载数据失败:', err))
+    } else if (!account) {
       // 断开钱包时重置所有状态
       setIsOldUser(false)
       setUserInfo({
@@ -895,7 +901,7 @@ export default function Home() {
         teamMembers: 0,
       })
     }
-  }, [account])
+  }, [mounted, account])
 
   return (
     <div className="min-h-screen relative">

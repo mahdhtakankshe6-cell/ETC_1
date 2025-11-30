@@ -61,7 +61,12 @@
       "Bash(powershell -Command:*)",
       "Bash(python3:*)",
       "Bash(npm run build:*)",
-      "Bash(npm run pages:build:*)"
+      "Bash(npm run pages:build:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\n优化数据刷新触发条件\n\n- 页面挂载 + 钱包连接时并行加载 loadUserData + loadTeamPerformance\n- 购买成功后并行刷新 syncUserData + loadTotalSales + loadUserData + loadTeamPerformance\n- 移除 loadUserData 内部重复调用 loadTeamPerformance\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
