@@ -1,0 +1,6 @@
+vi.json: "insufficientBalance": "Số dư USDT không đủ", "contractPaused": "Hợp đồng đã tạm dừng, không thể mua"
+fil.json: "insufficientBalance": "Kulang ang USDT balance", "contractPaused": "Naka-pause ang contract, hindi makabili"
+fr.json: "insufficientBalance": "Solde USDT insuffisant", "contractPaused": "Le contrat est en pause, impossible d'acheter"
+id.json: "insufficientBalance": "Saldo USDT tidak cukup", "contractPaused": "Kontrak dijeda, tidak bisa membeli"
+ja.json: "insufficientBalance": "USDT残高不足", "contractPaused": "コントラクトが一時停止中、購入できません"
+ko.json: "insufficientBalance": "USDT 잔액 부족", "contractPaused": "계약이 일시중지되어 구매할 수 없습니다"

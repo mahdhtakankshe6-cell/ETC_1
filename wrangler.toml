@@ -1,0 +1,11 @@
+name = "eternal-code"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# 环境变量在 Cloudflare Dashboard 中配置
+
+# 资产目录
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"

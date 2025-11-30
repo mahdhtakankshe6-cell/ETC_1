@@ -1,0 +1,224 @@
+[
+  {
+    "user": "0x180e750c0d7cc8bfd75a95b4009cec24ad81b50e",
+    "referrer": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "nodeType": 1,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0x180e750c0d7cc8bfd75a95b4009cec24ad81b50e",
+    "referrer": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x180e750c0d7cc8bfd75a95b4009cec24ad81b50e",
+    "referrer": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "nodeType": 1,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x180e750c0d7cc8bfd75a95b4009cec24ad81b50e",
+    "referrer": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x180e750c0d7cc8bfd75a95b4009cec24ad81b50e",
+    "referrer": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x3cb74b621b85912fcd7f1a788b9a2931fe3f038f",
+    "referrer": "0xb3dbd41298fb52ee89c8e9a2349ac43ec411e36f",
+    "nodeType": 1,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0x3cb74b621b85912fcd7f1a788b9a2931fe3f038f",
+    "referrer": "0xb3dbd41298fb52ee89c8e9a2349ac43ec411e36f",
+    "nodeType": 1,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x3cb74b621b85912fcd7f1a788b9a2931fe3f038f",
+    "referrer": "0xb3dbd41298fb52ee89c8e9a2349ac43ec411e36f",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x3cb74b621b85912fcd7f1a788b9a2931fe3f038f",
+    "referrer": "0xb3dbd41298fb52ee89c8e9a2349ac43ec411e36f",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "referrer": "0x543a217430543e146a9f57d70ef692d35f7a44bc",
+    "nodeType": 1,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "referrer": "0x543a217430543e146a9f57d70ef692d35f7a44bc",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "referrer": "0x543a217430543e146a9f57d70ef692d35f7a44bc",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "referrer": "0x543a217430543e146a9f57d70ef692d35f7a44bc",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "referrer": "0x543a217430543e146a9f57d70ef692d35f7a44bc",
+    "nodeType": 1,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x4316e8c505257970a2fc83ec68cdca2ec6770f24",
+    "referrer": "0x543a217430543e146a9f57d70ef692d35f7a44bc",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "referrer": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "nodeType": 2,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "referrer": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "referrer": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "nodeType": 1,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "referrer": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "nodeType": 1,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x543a217430543e146a9f57d70ef692d35f7a44bc",
+    "referrer": "0x69e39fa02baf2f6f3b1b9bcf3d9a1906c6e14595",
+    "nodeType": 2,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0x6c32b17e486fe678416993b893beed32cb308440",
+    "referrer": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "nodeType": 1,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0x6c32b17e486fe678416993b893beed32cb308440",
+    "referrer": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x6eaf856da557ccd898797e05532f1e26abda72c7",
+    "referrer": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "nodeType": 1,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0x6eaf856da557ccd898797e05532f1e26abda72c7",
+    "referrer": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "referrer": "0x69e39fa02baf2f6f3b1b9bcf3d9a1906c6e14595",
+    "nodeType": 1,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "referrer": "0x69e39fa02baf2f6f3b1b9bcf3d9a1906c6e14595",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "referrer": "0x69e39fa02baf2f6f3b1b9bcf3d9a1906c6e14595",
+    "nodeType": 1,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0x9d0ea3523600deeff1fd2f53045720ea568f5d5f",
+    "referrer": "0x69e39fa02baf2f6f3b1b9bcf3d9a1906c6e14595",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0xb3dbd41298fb52ee89c8e9a2349ac43ec411e36f",
+    "referrer": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "nodeType": 2,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0xb3dbd41298fb52ee89c8e9a2349ac43ec411e36f",
+    "referrer": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0xb3dbd41298fb52ee89c8e9a2349ac43ec411e36f",
+    "referrer": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0xb3dbd41298fb52ee89c8e9a2349ac43ec411e36f",
+    "referrer": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0xb3dbd41298fb52ee89c8e9a2349ac43ec411e36f",
+    "referrer": "0x4bfcae0d15dedc321d2a4734c1a716b5bddda2ac",
+    "nodeType": 2,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0xd479b15686c608319307e30df754ed845ff66026",
+    "referrer": "0x69e39fa02baf2f6f3b1b9bcf3d9a1906c6e14595",
+    "nodeType": 1,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0xd479b15686c608319307e30df754ed845ff66026",
+    "referrer": "0x69e39fa02baf2f6f3b1b9bcf3d9a1906c6e14595",
+    "nodeType": 1,
+    "isFirstPurchase": false
+  },
+  {
+    "user": "0xe90eeffd0fa239c7d8a1588c85498f859918ec70",
+    "referrer": "0x543a217430543e146a9f57d70ef692d35f7a44bc",
+    "nodeType": 1,
+    "isFirstPurchase": true
+  },
+  {
+    "user": "0xfdf59ca6f122e8dd43a81682fc07a8182f2b6f97",
+    "referrer": "0x543a217430543e146a9f57d70ef692d35f7a44bc",
+    "nodeType": 2,
+    "isFirstPurchase": true
+  }
+]
